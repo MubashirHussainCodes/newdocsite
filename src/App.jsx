@@ -633,7 +633,7 @@ function PainMap() {
           <div className="absolute inset-0 grid place-items-center text-neutral-300">
           <div className="absolute inset-0">
   <img
-    src="/public/images/human-body-frontal.jpg"
+    src="https://img.freepik.com/free-photo/human-body-frontal_1048-5345.jpg"
     alt="Human Anatomy"
     className="w-full h-full object-contain opacity-90"
   />
