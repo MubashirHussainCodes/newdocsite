@@ -654,9 +654,9 @@ function PainMap() {
 function VideoSlider() {
   const [i, setI] = useState(0);
   const videos = [
-    { title: "Knee replacement: what to expect", thumb: "../public/images/kneereplace.jpg" },
-    { title: "ACL injury: return‑to‑sport timeline", thumb: "../public/images/aclsurgery.webp" },
-    { title: "Shoulder pain: red flags vs strain", thumb: "../public/images/shoudler.jpeg" },
+    { title: "Knee replacement: what to expect", thumb: "images/kneereplace.jpg" },
+    { title: "ACL injury: return‑to‑sport timeline", thumb: "/images/aclsurgery.webp" },
+    { title: "Shoulder pain: red flags vs strain", thumb: "/images/shoudler.jpeg" },
   ];
   const prev = () => setI((v) => (v - 1 + videos.length) % videos.length);
   const next = () => setI((v) => (v + 1) % videos.length);
