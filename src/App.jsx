@@ -654,9 +654,9 @@ function PainMap() {
 function VideoSlider() {
   const [i, setI] = useState(0);
   const videos = [
-    { title: "Knee replacement: what to expect", thumb: "images/kneereplace.jpg" },
-    { title: "ACL injury: return‑to‑sport timeline", thumb: "/images/aclsurgery.webp" },
-    { title: "Shoulder pain: red flags vs strain", thumb: "/images/shoudler.jpeg" },
+    { title: "Knee replacement: what to expect", thumb: "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/09/woman-knee-brace-surgery-hospital-bed-1296x728-header.jpg?w=1155&h=1528" },
+    { title: "ACL injury: return‑to‑sport timeline", thumb: "https://sportsmed.in/wp-content/uploads/2017/05/ACL-Surgery.jpg" },
+    { title: "Shoulder pain: red flags vs strain", thumb: "https://aayush-hospitals.com/wp-content/uploads/2023/07/shutterstock_1919745623-scaled-1.webp" },
   ];
   const prev = () => setI((v) => (v - 1 + videos.length) % videos.length);
   const next = () => setI((v) => (v + 1) % videos.length);
